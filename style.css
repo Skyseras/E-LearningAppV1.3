@@ -1,0 +1,293 @@
+/* signup adds starts */
+
+.error {
+    background-color: red;
+    color: black;
+    padding: 10px;
+    width: 95%;
+    border-radius: 10px;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
+}
+
+.btn1 {
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 0;
+    text-align: start;
+}
+
+.btn1:focus {
+    background-color: #00C1FE;
+}
+
+.btn1:hover {
+    background-color: #00fed4;
+}
+
+.mleft {
+    margin-left: 50px;
+}
+
+.pleft {
+    padding-left: 55px;
+}
+
+.main-bg-h {
+    height: 100vh;
+}
+
+.b-left {
+    border-left: 6px solid #00C1FE;
+}
+
+.standard {
+    background-color: #00C1FE;
+}
+
+.border-r {
+    border-radius: 20px;
+}
+
+.bar {
+    border-radius: 8px;
+}
+
+.errors {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.ps {
+    font-size: small;
+}
+
+.rounded-sign {
+    border-radius: 20px;
+}
+
+.body {
+    height: 100vh;
+    background: linear-gradient(55deg, #00C1FE 19.39%, #FAFFC1 96.69%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* signup adds ends */
+
+
+/* dashboard adds starts */
+
+.bodyh {
+    height: 100vh;
+}
+
+.bg-yellow {
+    background-color: #FAFFC1;
+}
+
+.b-left2 {
+    border-left: 4px solid #00C1FE;
+}
+
+.rounded-full {
+    border-radius: 100%;
+}
+
+.bg1card {
+    background-color: #F0F9FF;
+    height: 130px;
+}
+
+.bg2card {
+    background-color: #FEF6FB;
+    height: 130px;
+}
+
+.bg3card {
+    background-color: #FEFBEC;
+    height: 130px;
+}
+
+.bg4card {
+    background: linear-gradient(120deg, #00C1FE 19.39%, #FAFFC1 96.69%);
+    height: 130px;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -16rem;
+    -webkit-transition: margin 0.25s ease-out;
+    -moz-transition: margin 0.25s ease-out;
+    -o-transition: margin 0.25s ease-out;
+    transition: margin 0.25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+#page-content-wrapper {
+    min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+#menu-toggle {
+    cursor: pointer;
+}
+
+.list-group-item {
+    border: none;
+    padding: 20px 30px;
+}
+
+.list-group-item.active {
+    background-color: #00C1FE;
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+    #wrapper.toggled #sidebar-wrapper {
+        margin-left: -16rem;
+    }
+}
+
+
+/* search bar */
+
+.search-container {
+    float: right;
+}
+
+.search-container input[type=text] {
+    padding: 2px 0px 2px 10px;
+    font-size: 14px;
+    border-top: 1px solid #C4C4C4;
+    border-left: 1px solid #C4C4C4;
+    border-bottom: 1px solid #C4C4C4;
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+}
+
+.search-container button {
+    float: right;
+    color: #C4C4C4;
+    padding: 2px 10px;
+    margin-right: 16px;
+    background: white;
+    font-size: 14px;
+    border-top: 1px solid #C4C4C4;
+    border-right: 1px solid #C4C4C4;
+    border-bottom: 1px solid #C4C4C4;
+    border-left: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background: #FAFFC1;
+}
+
+
+/* dashboard adds ends */
+
+
+/* students adds starts */
+
+#editer2 img {
+    padding: 10px 0;
+}
+
+#editer2 {
+    text-align: center;
+}
+
+.bgstudent {
+    background-color: #E5E5EE;
+}
+
+@media (max-width: 1100px) {
+    #num {
+        display: none;
+    }
+    #date {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .bodyh {
+        height: auto;
+    }
+    #num {
+        display: block;
+    }
+    #date {
+        display: block;
+    }
+    #titles {
+        display: none;
+    }
+    #info {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    #info div {
+        text-align: center;
+        width: 100%;
+    }
+    #info div:first-child img {
+        height: 100px;
+        width: 100px;
+        border: 5px solid #00C1FE;
+        border-radius: 300px;
+    }
+    #editer {
+        padding: 10px 0;
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) {
+    #info div {
+        margin: auto;
+    }
+}
+
+
+/* students adds ends */
